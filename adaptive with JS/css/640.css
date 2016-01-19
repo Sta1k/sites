@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+article, aside, details, figcaption, figure, footer, header,  menu, nav, section {
+    display: block;
+}
+body{
+
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.banner {
+    margin-top: 15%;
+    line-height: 0.2em;
+    padding-left: 5%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 55px;
+}
+
+.menu {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#pagewrap {
+    overflow: hidden;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #373c3f;
+}
+
+#header-main {
+    z-index: 0;
+}
+
+#content {
+    max-width: 100%;
+    background-color: #0ca3b9;
+    height: 577px;
+}
+
+#sidebar {
+    width: 280px;
+    float: right;
+}
+
+#footer {
+    clear: both;
+}
+
+#nav-panel li {
+    display: inline;
+    padding-right: 5%;
+}
+
+#nav-panel {
+    width: 80%;
+    color: #ffffff;
+    float: left;
+    margin: 45px 0 0 0;
+}
+
+.site-name {
+    line-height: 0.5em;
+    width: 75%;
+    color: #a5d3dd;
+    font-size: xx-large;
+}
+
+.bird {
+    position: relative;
+    float: right;
+    color: white;
+}
+
+.fa-angle-right:hover {
+    color: #a5d3dd;
+}
+
+.robin-hood {
+    line-height: 8em;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    height: 245px;
+}
+
+.left-robin {
+    margin: auto;
+    height: 100%;
+    float: left;
+    color: #9282a0;
+    width: 80%;
+    background: #27212c;
+}
+
+.right-robin {
+    margin: auto;
+    font-size: 250%;
+    height: 100%;
+    float: right;
+    width: 20%;
+    background: #bc3183;
+}
+
+.angle {
+    background-image: url('../img/1.png');
+    font-size: 200%;
+    padding: 12.48% 0;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+}
+
+.imgsrc {
+    background: url("../img/2.jpg") no-repeat;
+
+    float: left;
+    width: 100%;
+}
+
+.imgsrc2 {
+    background: url("../img/3.jpg") no-repeat;
+
+    float: left;
+    width: 100%;
+}
+
+.text-field {
+    width: 100%;
+    background-color: #ebebeb;;
+    color: #515051;
+}
+
+.text-field a {
+    font-size: xx-large;
+    color: #0ca3b9;
+}
+
+.text1, .text2 {
+    line-height: 1.4em;
+    width: 50%;
+    float: left;
+    padding: 5% 0 15% 7%;
+    box-sizing: border-box;
+}
+
+.text1 p {
+    margin-bottom: 5%;
+}
+
+.text2 {
+    padding-top: 7.7%;
+}
+
+.text2 p {
+    margin-bottom: 5%;
+}
+html {
+    -webkit-text-size-adjust: none;
+}
+
+#nav-panel {
+    display: none;
+}
+
+#main-nav a {
+    font-size: 90%;
+    padding: 10px 8px;
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+.site-name {
+    line-height: 0.5em;
+    width: 75%;
+    color: #a5d3dd;
+    font-size: x-large;
+
+}
+.banner {
+    margin-top: 15%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18pt;
+}
+
+li ul {
+    left: 75%;
+    width: 33%;
+    position: absolute;
+    display: none;
+
+}
+
+li:hover {
+    color: #ffe;
+    background-color: #373c3f;
+}
+
+li:hover ul {
+    display: block;
+}
+
+li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-bottom: none;
+}
+
+li a:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+
+.brd {
+    border-bottom: 1px solid #ccc;
+}
+
+.text2 {
+    display: none;
+}
+
+ul li img {
+    height: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto \9; /* ie8 */
+}
+
+.menu {
+    display: block;
+    float: right;
+}
+
+.text1 {
+    width: auto;
+}
+
+.robin-hood {
+
+    line-height: 8em;
+    height: auto;
+    font-size: smaller;
+    text-align: center;
+    width: 100%;
+}
+
+.angle {
+    background-image: url(../img/1.png);
+    font-size: 500%;
+    padding: 12.48% 0;
+    line-height: 500%;
+    text-align: center;
+    float: left;
+
+    width: 100%;
+}
+
+
+
+.imgsrc2 {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 460px) {
+    .banner {
+        margin-top: 15%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+    }
+}
